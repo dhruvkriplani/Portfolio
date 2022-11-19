@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>myportfolio</title>
+	<link rel="stylesheet" type="text/css" href="portfolio_styles.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=outline">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/93a78f53e3.js" crossorigin="anonymous"></script>
+	
+<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+<script src="portfolio_events.js"></script>
+
+	
+</head>
+<body>
+	<div id="item-1" class="container">
+		<div  class="navbar">
+			
+			<ul class="menu-button" style="width:5vw;">
+				<li><a><i class="material-icons">dehaze</i></a></li>
+			</ul>
+			<ul class="list">
+				<li><a href="#item-1">Home</a></li>
+				<li><a href="#abouts">About </a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#project">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+		<div class="image">
+			<div class="intro">
+				I'm Dhruv Kriplani
+			</div>
+					<br> 
+			<div style="font-size:medium;color:aqua;">
+				Java Coder & Web Developer<br>
+			</div>
+			<br>
+			<div class="photo">
+				<img src="photo.jpg"/>
+			</div>			
+		</div>	
+	</div>	
+	
+	<!--The home page end here and the About section starts from below-->
+	<!--About Section-->
+	<div id="abouts">
+		<h1>Me talking about myself!!!</h1>		
+		<div id="about">
+				
+				<div class="Education">
+					
+					
+						<p><Span>Education</Span><br><br>
+							I am currently pursuing Bachelor Of technology in Information 
+						Technology at Manipal University Jaipur. I have been learning java since eighth grade so it has been a long time. I got in touch with web development
+						in the third semester of my  college.
+					</p>
+
+										
+					
+				
+				</div>
+				<div class="hobbies"> 
+					
+					<p><span> Hobbies</span><br><br>
+						I love playing cricket, well everyone in India does. I love doing java coding in my leisure time. My other hobbies are listening music,
+						watching movies, and playing with my cute little pet. 
+					</p>
+
+				</div>
+				<div class="achievements">
+					<p><span>Projects</span><br><br>
+						I have developed a front end bases site that predicts the possibility of a person being convicted to covid that uses html,css and js.
+						I along with my friend have developed a full stack project named "Collect" that collects the data of various events happening in our college and produces a well formatted pdf for the same.
+
+					</p>
+				</div>
+		
+		</div>
+	</div>
+	<!--About section ends here-->
+	<br>
+	<!--Skills Section starts-->
+	<div>
+		<h1 id="skills">What I do?(hover to know!!)</h1>
+		<div class="skill-gallery">
+			<div class="html">
+				<img src="1.png"/>
+				<p class="txt1"></p>
+			</div>
+			<div class="css">
+				<img src="2.png"/>
+				<p class="txt2"></p>
+			</div>
+			<div class="js">
+				<img src="6.png"/>
+				<p class="txt6"></p>
+			</div>
+			<div class="java">
+				<img src="4.png"/>
+				<p class="txt4"></p>
+			</div>
+			<div class="php">
+				<img src="3.png"/>
+				<p class="txt3"></p>
+			</div>
+			<div class="Mysql">
+				<img src="5.png"/>
+				<p class="txt5"></p>
+			</div>
+		</div>
+
+	</div>
+	<!--skills section ends-->	
+	<div id="project" style="height:100vh;">
+		<h1>My projects</h1>	
+		<div id="projects">
+		
+			<div id="project_1">
+				<h2>Covid risk Detector</h2>
+				<p>This project tells the probability whether a particular person can contract coronavirus or not. This detector does not fully confirms the presence of virus but just predicts based on the entered symtopms.Go check out my detector at <a href="https://dhruvkriplani.github.io/Basic-front-end-project/">Github</a></p>
+			</div>
+			<div id="project_2">
+				<h2>Collect</h2>
+				<p>This project collects the information regarding various events that happen in our college and produces a well formatted pdf for the same.It also includes features such as advanved searching through database.The project uses <a herf="https://en.wikipedia.org/wiki/React_(JavaScript_library)">ReactJs</a> for frontend, <a href="https://en.wikipedia.org/wiki/Node.js">NodeJs</a>,<a href="https://en.wikipedia.org/wiki/Express.js">Express</a> for backend and <a href="https://en.wikipedia.org/wiki/MySQL">Mysql</a> database.  </p>
+			</div>
+
+
+		</div>
+	</div>
+	<div id="contact">
+		<h1>
+			Contact Me
+		</h1>
+		<div id="contact_details">
+			
+			<!--<div id="contact-form">
+				<form action="form_validate.php" method="post">
+					<table>
+						<tr>
+							<td><label for="name">Name:</label></td>
+							<td><p></p><input type="text" name="name" validate placeholder="enter your name" /></td>
+							
+						</tr>
+							
+							<tr>
+								<td><label for="email">Email:</label></td>
+								<td><input type="email" name="email" placeholder="enter email" validate/></td>
+							</tr>
+							
+							<tr>
+								<td><label for="comments">Comments:</label></td>
+								<td><textarea  name="comments" rows="2" cols="20 placeholder="any comments..." maxlength="20"> </textarea></td>
+							</tr>
+							
+					</table>
+					<div class="buttons">
+						<div>
+							<input type="submit" name="submit" value="submit"/>
+						</div>
+						<div>
+							<input type="reset" name="reset" value="reset"/>
+						</div>
+						
+					</div>
+					<div class="status">
+						
+					</div>
+
+					
+				</form>
+			</div>-->
+			<div id="icon">
+				
+				<div>
+					<a href="https://github.com/dhruvkriplani">
+						<img src="git.svg"/>
+					</a>
+				</div>
+				<div>
+					<a href="https://leetcode.com/dhruvkriplani/">
+						<img src="leetcode.png"/>
+					</a>
+				</div>
+				<div>
+					<a href="https://www.hackerrank.com/dhruvkriplani">
+						<img src="hackerrank.svg"/>
+					</a>
+				</div>
+				<div>
+					<a href="https://www.linkedin.com/in/dhruv-kriplani-5480ba217/">
+						<img src="linkedin.png"/>
+					</a>
+				</div>
+			</div>
+			<div class="footer">
+				<h1>Copyright &copy; reserved</h1>
+			</div>
+
+
+		</div>
+		
+			
+		
+
+	</div>
+
+
+</body>
+</html>
